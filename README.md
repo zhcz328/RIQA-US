@@ -18,7 +18,7 @@
 
 2. Install Environment:
     ```
-    conda env create -f environment.yml
+    conda env create -f envs.yml
     ```
 
 + We recommend you to use Anaconda to establish an independent virtual environment, and python > = 3.8.3; 
