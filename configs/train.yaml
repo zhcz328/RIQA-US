@@ -7,7 +7,7 @@ vis_samples: False
 mode: "rotation_scale"
 lr: 0.0001
 momentum: 0.9
-epochs: 600
+epochs: 500
 trn_batch_size: 4
 val_batch_size: 2
 
