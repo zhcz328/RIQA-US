@@ -27,7 +27,7 @@
 ## :blue_book: Data Preparation
 
 ### *1. dataset*
- * This project provides the use case of UDA Ultrasound Anatomical Structure Detection task;
+ * This project provides the use case of Ultrasound Image Quality Assessment task;
 
  * The hyperparameters setting of the dataset can be found in the **configs/xxx.yaml**, where you could do the parameters' modification;
 
@@ -54,10 +54,9 @@
 
 
 ## :feet: Testing
-1. Download the ```TEST_CHECKPOINT``` <a href="">here</a>.
-2. Put the checkpoint file in ***./output*** directory.
-3. Set the ***weights_path*** in ***./configs/evaluate.yaml***.
-4. you only need to use the command:
+1. Put the checkpoint file in ***./output*** directory.
+2. Set the ***weights_path*** in ***./configs/evaluate.yaml***.
+3. you only need to use the command:
 
    ```shell
     python evaluate.py
