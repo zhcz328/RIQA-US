@@ -171,4 +171,4 @@ def save_richer_transformations(image_path, output_dir, device="cuda" if torch.c
 
 
 # Example usage:
-save_richer_transformations("/archive/zhuchunzheng/GVSL/train/11.jpg", "/archive/zhuchunzheng/GVSL/train/fixed_img_jizhang_transform")
+save_richer_transformations("**/*.jpg", "**/img_transform")
