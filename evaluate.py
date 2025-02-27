@@ -10,12 +10,7 @@ from utils.build import get_R_STN_model, get_R_STN_optimizer
 
 def calculate_quality_score(cosine_loss, image_similarity_loss, smooth_loss):
     # Set Min and Max according to history
-    image_similarity_min = -4.496496201
-    image_similarity_max = -0.017213229
-    cosine_min = -2.993062496
-    cosine_max = -1.630403519
-    smooth_min = 0.038905706
-    smooth_max = 0.482037395
+    image_similarity_min, image_similarity_max, cosine_min, cosine_max, smooth_min, smooth_max = -4.496, -0.017, -2.99, -1.630, 0.038, 0.482
 
     # Normalization
     cosine_loss_normalized = normalize_loss(cosine_loss, cosine_min, cosine_max)
