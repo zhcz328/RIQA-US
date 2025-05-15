@@ -49,3 +49,4 @@ image_loss = GlobalMutualInformationLoss()
 
 # Define the regularization term using Bending Energy Loss
 regularization = BendingEnergyLoss()
+
